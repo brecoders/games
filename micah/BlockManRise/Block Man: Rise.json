@@ -61,21 +61,21 @@
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
       "backgroundImageResourceName": "",
-      "gdevelopLogoStyle": "light",
+      "gdevelopLogoStyle": "dark-colored",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0,
-      "minDuration": 1.5,
+      "minDuration": 2,
       "progressBarColor": 10526880,
       "progressBarHeight": 20,
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
-      "showGDevelopSplash": false,
+      "showGDevelopSplash": true,
       "showProgressBar": true
     },
     "watermark": {
-      "placement": "bottom-left",
-      "showWatermark": true
+      "placement": "bottom-right",
+      "showWatermark": false
     },
     "authorIds": [],
     "authorUsernames": [],
@@ -3534,6 +3534,46 @@
         "name": "Idle13",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Death65.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death65",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death66.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death66",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death67.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death67",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death68.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death68",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death69.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death69",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3565,7 +3605,7 @@
         "gridColor": 5263440,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 11.626434379010833,
+        "zoomFactor": 6.839079046476966,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -15072,7 +15112,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Boss",
           "type": "Sprite",
@@ -15096,8 +15136,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15109,18 +15149,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15132,8 +15188,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15145,18 +15201,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15168,8 +15240,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15181,18 +15253,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15204,8 +15292,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15217,18 +15305,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15253,8 +15357,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15266,18 +15370,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15289,8 +15409,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15302,18 +15422,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15325,8 +15461,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15338,18 +15474,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15361,8 +15513,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15374,18 +15526,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15397,8 +15565,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15410,18 +15578,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15433,8 +15617,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15446,18 +15630,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15469,8 +15669,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15482,18 +15682,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15518,8 +15734,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15531,18 +15747,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15554,8 +15786,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15567,18 +15799,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15590,8 +15838,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15603,18 +15851,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15626,8 +15890,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15639,18 +15903,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15662,8 +15942,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15675,18 +15955,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15698,8 +15994,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15711,18 +16007,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15734,8 +16046,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15747,18 +16059,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15770,8 +16098,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15783,18 +16111,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15819,8 +16163,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15832,18 +16176,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15855,8 +16215,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15868,18 +16228,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15891,8 +16267,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15904,18 +16280,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15927,8 +16319,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15940,18 +16332,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15963,8 +16371,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15976,18 +16384,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -15999,8 +16423,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -16012,18 +16436,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -16035,8 +16475,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -16048,18 +16488,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -16071,8 +16527,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -16084,18 +16540,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -16107,8 +16579,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -16120,18 +16592,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -16143,8 +16631,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -16156,18 +16644,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -16179,8 +16683,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -16192,18 +16696,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -16215,8 +16735,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -16228,18 +16748,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -16251,8 +16787,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -16264,18 +16800,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -16300,8 +16852,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -16313,18 +16865,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -16336,8 +16904,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -16349,18 +16917,34 @@
                         [
                           {
                             "x": 4,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 5
-                          },
-                          {
-                            "x": 14,
-                            "y": 18
+                            "y": 13
                           },
                           {
                             "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
                             "y": 18
                           }
                         ]
@@ -16376,8 +16960,270 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Death65",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 9,
+                        "y": 11
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 13
+                          },
+                          {
+                            "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Death66",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 9,
+                        "y": 11
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 13
+                          },
+                          {
+                            "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Death67",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 9,
+                        "y": 11
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 13
+                          },
+                          {
+                            "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Death68",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 9,
+                        "y": 11
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 13
+                          },
+                          {
+                            "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Death69",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 9,
+                        "y": 11
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 13
+                          },
+                          {
+                            "x": 4,
+                            "y": 9
+                          },
+                          {
+                            "x": 8,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 13,
+                            "y": 18
+                          },
+                          {
+                            "x": 5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -20094,7 +20940,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.662396271318637,
+        "zoomFactor": 0.9540068928315576,
         "windowMask": false
       },
       "objectsGroups": [],
