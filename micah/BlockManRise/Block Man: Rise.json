@@ -3574,6 +3574,36 @@
         "name": "Death69",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "BlockManRiseOverworld.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "BlockManRiseOverworld.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "BlockManRiseTitle.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "BlockManRiseTitle.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "BlockManRiseBossBattle.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "BlockManRiseBossBattle.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3605,7 +3635,7 @@
         "gridColor": 5263440,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 6.839079046476966,
+        "zoomFactor": 5.074229491259346,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -17670,6 +17700,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18124,6 +18155,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Dashing",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -18367,6 +18399,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Attack",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -19685,6 +19718,46 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Sound",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "BlockManRiseOverworld.wav",
+                    "yes",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -19931,7 +20004,7 @@
       "name": "Pause Screen",
       "r": 0,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 0,
       "uiSettings": {
@@ -20927,7 +21000,7 @@
       "name": "Title Screen",
       "r": 0,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 0,
       "uiSettings": {
@@ -21989,12 +22062,11 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"Tutorial Screen\"",
-                ""
+                "\"Tutorial Screen\""
               ]
             }
           ]
@@ -22118,6 +22190,51 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "BlockManRiseTitle.wav",
+                "yes",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "UnloadSound"
+              },
+              "parameters": [
+                "",
+                "BlockManRiseOverworld.wav"
+              ]
+            },
+            {
+              "type": {
+                "value": "UnloadSound"
+              },
+              "parameters": [
+                "",
+                "BlockManRiseBossBattle.wav"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -22208,7 +22325,7 @@
       "name": "Tutorial Screen",
       "r": 236,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 236,
       "uiSettings": {
@@ -22221,7 +22338,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.4002293514086677,
+        "zoomFactor": 0.9405079826056604,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -23097,11 +23214,9 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PopScene"
               },
               "parameters": [
-                "",
-                "\"Title Screen\"",
                 ""
               ]
             }
@@ -23192,7 +23307,7 @@
       "name": "Tutorial Screen Pause",
       "r": 236,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 236,
       "uiSettings": {
