@@ -3146,7 +3146,7 @@
       {
         "file": "assets/Run23.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run23.png\"}",
         "name": "Run23",
         "smoothed": false,
         "userAdded": false
@@ -3154,7 +3154,7 @@
       {
         "file": "assets/Run24.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run24.png\"}",
         "name": "Run24",
         "smoothed": false,
         "userAdded": false
@@ -3162,7 +3162,7 @@
       {
         "file": "assets/Run25.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run25.png\"}",
         "name": "Run25",
         "smoothed": false,
         "userAdded": false
@@ -3170,7 +3170,7 @@
       {
         "file": "assets/Run26.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run26.png\"}",
         "name": "Run26",
         "smoothed": false,
         "userAdded": false
@@ -3178,7 +3178,7 @@
       {
         "file": "assets/Run27.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run27.png\"}",
         "name": "Run27",
         "smoothed": false,
         "userAdded": false
@@ -3186,7 +3186,7 @@
       {
         "file": "assets/Run28.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run28.png\"}",
         "name": "Run28",
         "smoothed": false,
         "userAdded": false
@@ -3194,7 +3194,7 @@
       {
         "file": "assets/Run29.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Run29.png\"}",
         "name": "Run29",
         "smoothed": false,
         "userAdded": false
@@ -3202,7 +3202,7 @@
       {
         "file": "assets/Idle8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle8.png\"}",
         "name": "Idle8",
         "smoothed": false,
         "userAdded": false
@@ -3210,7 +3210,7 @@
       {
         "file": "assets/Idle9.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle9.png\"}",
         "name": "Idle9",
         "smoothed": false,
         "userAdded": false
@@ -3218,7 +3218,7 @@
       {
         "file": "assets/Idle10.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle10.png\"}",
         "name": "Idle10",
         "smoothed": false,
         "userAdded": false
@@ -3234,7 +3234,7 @@
       {
         "file": "assets/SmashApproach.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashApproach.png\"}",
         "name": "SmashApproach",
         "smoothed": false,
         "userAdded": false
@@ -3242,7 +3242,7 @@
       {
         "file": "assets/SmashApproach2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashApproach2.png\"}",
         "name": "SmashApproach2",
         "smoothed": false,
         "userAdded": false
@@ -3250,7 +3250,7 @@
       {
         "file": "assets/SmashApproach3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashApproach3.png\"}",
         "name": "SmashApproach3",
         "smoothed": false,
         "userAdded": false
@@ -3258,7 +3258,7 @@
       {
         "file": "assets/SmashApproach4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashApproach4.png\"}",
         "name": "SmashApproach4",
         "smoothed": false,
         "userAdded": false
@@ -3266,7 +3266,7 @@
       {
         "file": "assets/SmashApproach5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashApproach5.png\"}",
         "name": "SmashApproach5",
         "smoothed": false,
         "userAdded": false
@@ -3274,7 +3274,7 @@
       {
         "file": "assets/SmashApproach6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashApproach6.png\"}",
         "name": "SmashApproach6",
         "smoothed": false,
         "userAdded": false
@@ -3282,7 +3282,7 @@
       {
         "file": "assets/SmashApproach7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashApproach7.png\"}",
         "name": "SmashApproach7",
         "smoothed": false,
         "userAdded": false
@@ -3290,7 +3290,7 @@
       {
         "file": "assets/SmashApproach8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashApproach8.png\"}",
         "name": "SmashApproach8",
         "smoothed": false,
         "userAdded": false
@@ -3378,7 +3378,7 @@
       {
         "file": "assets/SmashDown!11.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashDown!11.png\"}",
         "name": "SmashDown!11",
         "smoothed": false,
         "userAdded": false
@@ -3386,7 +3386,7 @@
       {
         "file": "assets/SmashDown!12.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashDown!12.png\"}",
         "name": "SmashDown!12",
         "smoothed": false,
         "userAdded": false
@@ -3394,7 +3394,7 @@
       {
         "file": "assets/SmashDown!13.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashDown!13.png\"}",
         "name": "SmashDown!13",
         "smoothed": false,
         "userAdded": false
@@ -3402,7 +3402,7 @@
       {
         "file": "assets/SmashDown!14.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashDown!14.png\"}",
         "name": "SmashDown!14",
         "smoothed": false,
         "userAdded": false
@@ -3410,7 +3410,7 @@
       {
         "file": "assets/SmashDown!15.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashDown!15.png\"}",
         "name": "SmashDown!15",
         "smoothed": false,
         "userAdded": false
@@ -3418,7 +3418,7 @@
       {
         "file": "assets/SmashDown!16.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashDown!16.png\"}",
         "name": "SmashDown!16",
         "smoothed": false,
         "userAdded": false
@@ -3426,7 +3426,7 @@
       {
         "file": "assets/SmashDown!17.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashDown!17.png\"}",
         "name": "SmashDown!17",
         "smoothed": false,
         "userAdded": false
@@ -3434,7 +3434,7 @@
       {
         "file": "assets/SmashDown!18.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashDown!18.png\"}",
         "name": "SmashDown!18",
         "smoothed": false,
         "userAdded": false
@@ -3442,7 +3442,7 @@
       {
         "file": "assets/SmashDown!19.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashDown!19.png\"}",
         "name": "SmashDown!19",
         "smoothed": false,
         "userAdded": false
@@ -3450,7 +3450,7 @@
       {
         "file": "assets/SmashDown!20.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashDown!20.png\"}",
         "name": "SmashDown!20",
         "smoothed": false,
         "userAdded": false
@@ -3458,7 +3458,7 @@
       {
         "file": "assets/SmashDown!21.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashDown!21.png\"}",
         "name": "SmashDown!21",
         "smoothed": false,
         "userAdded": false
@@ -3466,7 +3466,7 @@
       {
         "file": "assets/SmashDown!22.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashDown!22.png\"}",
         "name": "SmashDown!22",
         "smoothed": false,
         "userAdded": false
@@ -3474,7 +3474,7 @@
       {
         "file": "assets/SmashDown!23.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SmashDown!23.png\"}",
         "name": "SmashDown!23",
         "smoothed": false,
         "userAdded": false
@@ -3482,7 +3482,7 @@
       {
         "file": "assets/Hit13.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hit13.png\"}",
         "name": "Hit13",
         "smoothed": false,
         "userAdded": false
@@ -3490,8 +3490,48 @@
       {
         "file": "assets/Hit14.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hit14.png\"}",
         "name": "Hit14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death62",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death63.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death63",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death64.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death64",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle13",
         "smoothed": false,
         "userAdded": false
       }
@@ -3525,7 +3565,7 @@
         "gridColor": 5263440,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 14.186161191781148,
+        "zoomFactor": 11.626434379010833,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7032,12 +7072,28 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "MiniBoss",
-          "persistentUuid": "092d6f85-2f5e-4f6c-ae77-fed20e7952c8",
+          "name": "Zombie",
+          "persistentUuid": "2e488a9d-9334-4237-a3fb-df027594e209",
           "width": 0,
-          "x": 34,
-          "y": 31,
+          "x": 35,
+          "y": 35,
           "zOrder": 217,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boss",
+          "persistentUuid": "9525bbf2-3f66-44c5-b17e-c94fd86c6905",
+          "width": 0,
+          "x": 538,
+          "y": 119,
+          "zOrder": 218,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15036,7 +15092,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Idle8",
+                      "image": "Idle12",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15144,7 +15200,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Idle11",
+                      "image": "Idle13",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16311,6 +16367,17 @@
                       ]
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "name": "Death",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
                 }
               ]
             }
@@ -20027,7 +20094,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.7330318690224176,
+        "zoomFactor": 0.662396271318637,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20083,8 +20150,8 @@
           "name": "Player",
           "persistentUuid": "1d965993-3d73-448f-b7de-cfd1e25fa059",
           "width": 103,
-          "x": 130,
-          "y": 256,
+          "x": 437,
+          "y": 208,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -20169,23 +20236,6 @@
           "x": 199,
           "y": 128,
           "zOrder": 204,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 24,
-          "height": 630,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FinalEnemie",
-          "persistentUuid": "83b91302-e336-443e-9aff-f4d3d9f8d6dd",
-          "width": 630,
-          "x": 258,
-          "y": -248,
-          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
