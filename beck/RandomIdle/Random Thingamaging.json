@@ -24,7 +24,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "/home/beck/code/brecoders.github.io/games/beck/random-thing",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -3183,6 +3183,54 @@
         "name": "Idle15",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Right arrow round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right arrow round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Line Light/395a249c4abb42403973c9fa2c7b0ce398e255337a5e4e90e897f79f5c1cf89f_Right arrow round button.png",
+          "name": "Right arrow round button.png"
+        }
+      },
+      {
+        "file": "assets/Left arrow round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left arrow round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Light/47a328f58477770044263c7edd0950293a97514faf744bd8672b968c3eda4d29_Left arrow round button.png",
+          "name": "Left arrow round button.png"
+        }
+      },
+      {
+        "file": "assets/Top arrow round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Top arrow round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Line Light/9db14f1f27b0865e73b3bfe5dafb5213806aec61d8cc8ff33ccb5d14d16952df_Top arrow round button.png",
+          "name": "Top arrow round button.png"
+        }
+      },
+      {
+        "file": "assets/Fire round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Light/809c66315299ada1f1daf4b043a37a98e55a33975a8b56f803dd512a85ba7345_Fire round button.png",
+          "name": "Fire round button.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -3220,7 +3268,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.4258376272537374,
+        "zoomFactor": 0.544981050078125,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3241,8 +3289,8 @@
           "name": "PixelPlatformer18x18",
           "persistentUuid": "48aedb74-6178-47b5-98de-bc3c7f258960",
           "width": 0,
-          "x": 42,
-          "y": 241,
+          "x": 44,
+          "y": 242,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [
@@ -3363,7 +3411,7 @@
           "layer": "",
           "name": "RespawnBlock",
           "persistentUuid": "a75d9138-bfd8-41a2-a8dc-e0a98c773800",
-          "width": 5601,
+          "width": 9350,
           "x": -1032,
           "y": 2229,
           "zOrder": 8,
@@ -4094,8 +4142,8 @@
           "name": "PineTreeBig",
           "persistentUuid": "0f1dcc5a-3326-4b9a-a731-185350d929c0",
           "width": 0,
-          "x": 2790,
-          "y": 875,
+          "x": 2818,
+          "y": 882,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -4103,15 +4151,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
           "keepRatio": true,
           "layer": "",
-          "name": "DinoDoux",
-          "persistentUuid": "1007c20d-2a34-4322-8b05-5d6d481ee1b4",
-          "width": 0,
-          "x": 2911,
-          "y": 971,
+          "name": "Platform",
+          "persistentUuid": "f81efbf6-700a-4d29-bb88-ca20d139dfe8",
+          "width": 4244,
+          "x": 2707,
+          "y": 980,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -4119,144 +4168,1037 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
           "keepRatio": true,
           "layer": "",
-          "name": "DinoDoux",
-          "persistentUuid": "7bdb1c79-ac4f-41e0-857c-693d2ece7dc0",
-          "width": 0,
-          "x": 2849,
-          "y": 971,
-          "zOrder": 50,
+          "name": "PineTree",
+          "persistentUuid": "7ef96997-3a5f-4825-8949-eb7534836f1d",
+          "width": 50,
+          "x": 2983,
+          "y": 946,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
           "keepRatio": true,
           "layer": "",
-          "name": "DinoDoux",
-          "persistentUuid": "28be6af2-1b5a-44e6-95a2-68a575cd1370",
-          "width": 0,
-          "x": 2833,
-          "y": 971,
-          "zOrder": 51,
+          "name": "PineTree",
+          "persistentUuid": "2e82e260-4b0f-4335-9137-12551ac233e5",
+          "width": 50,
+          "x": 3050,
+          "y": 946,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
           "keepRatio": true,
           "layer": "",
-          "name": "DinoDoux",
-          "persistentUuid": "d5402d0f-4dbe-46ff-b69b-099ce714ef7c",
-          "width": 0,
-          "x": 2946,
-          "y": 972,
-          "zOrder": 52,
+          "name": "PineTree",
+          "persistentUuid": "cb57c167-ee7b-4053-b101-9986eb503f53",
+          "width": 50,
+          "x": 3123,
+          "y": 944,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
           "keepRatio": true,
           "layer": "",
-          "name": "Hat2",
-          "persistentUuid": "74bcd7b4-52ab-4e0a-8ac3-9e348649c5a5",
-          "width": 0,
-          "x": 2726,
-          "y": 935,
-          "zOrder": 0,
+          "name": "PineTree",
+          "persistentUuid": "7857c6c2-0c62-46e5-bac8-4dab664768d5",
+          "width": 50,
+          "x": 3195,
+          "y": 944,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
           "keepRatio": true,
           "layer": "",
-          "name": "VirtualGuy",
-          "persistentUuid": "1101d364-6773-46e2-bbed-954964a1faa6",
-          "width": 0,
-          "x": 2882,
-          "y": 950,
-          "zOrder": 10,
+          "name": "PineTree",
+          "persistentUuid": "a25e9b19-7a9e-40f2-a72c-698b80ec709b",
+          "width": 50,
+          "x": 3259,
+          "y": 946,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
           "keepRatio": true,
           "layer": "",
-          "name": "VirtualGuy",
-          "persistentUuid": "5e1ab195-2958-4aeb-ae37-c716adcae4b1",
-          "width": 0,
-          "x": 2911,
-          "y": 950,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "VirtualGuy",
-          "persistentUuid": "7ea6c90d-319d-4aec-b94b-eefb37cf3b7a",
-          "width": 0,
-          "x": 2870,
-          "y": 949,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "VirtualGuy",
-          "persistentUuid": "c2a17867-cb71-4db0-8518-ceefe2c4146d",
-          "width": 0,
-          "x": 2846,
+          "name": "PineTree",
+          "persistentUuid": "e7a2cced-76e1-4cc0-869e-ec6b556b4e91",
+          "width": 50,
+          "x": 3326,
           "y": 948,
-          "zOrder": 10,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
           "keepRatio": true,
           "layer": "",
-          "name": "VirtualGuy2",
-          "persistentUuid": "1db2ba0b-0355-4b28-afb3-36d1a7125a62",
-          "width": 0,
-          "x": 2726,
+          "name": "PineTree",
+          "persistentUuid": "ae46d384-720a-428e-805d-2ee4bd40943c",
+          "width": 50,
+          "x": 3397,
+          "y": 945,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "e9431322-179e-4966-a1f7-5b85deb9fa64",
+          "width": 50,
+          "x": 3461,
+          "y": 946,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "1a0c6d41-eb06-4bf6-9668-974fa1696a5e",
+          "width": 50,
+          "x": 3521,
+          "y": 946,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "caf521db-ec2c-4e7c-aa3a-0a23a4b4a2d8",
+          "width": 50,
+          "x": 3579,
+          "y": 949,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "beafec1c-e27b-49f7-b6fa-32c0863c6640",
+          "width": 50,
+          "x": 3650,
+          "y": 947,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "7a135cec-8b88-4c89-95f9-c5362c1d24e2",
+          "width": 50,
+          "x": 3712,
+          "y": 948,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "947b3710-e188-484d-a33c-9bdd7641b44a",
+          "width": 50,
+          "x": 3773,
+          "y": 948,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "fdf589ef-1eca-4f3c-9141-bfc185735165",
+          "width": 50,
+          "x": 3824,
+          "y": 946,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "83459782-590b-4108-933f-c0c4e2ed9fdb",
+          "width": 50,
+          "x": 3899,
+          "y": 946,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "7c633ce0-4032-48b5-88cc-aa0a9fb1de36",
+          "width": 50,
+          "x": 3977,
+          "y": 944,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "a837de5e-6186-40d5-8d76-4c8e9452a9d6",
+          "width": 50,
+          "x": 4045,
+          "y": 943,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "2a11a2ea-53b2-4f88-990e-01d83be1c2e2",
+          "width": 50,
+          "x": 4115,
+          "y": 945,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "abdcb22b-9fdd-4bc7-a98d-bce98e6dfe78",
+          "width": 50,
+          "x": 4190,
+          "y": 942,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "df7aab40-d48a-493c-982f-67a45256327f",
+          "width": 50,
+          "x": 4276,
+          "y": 949,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "e86ce123-aeeb-49c6-8997-9eca524cb170",
+          "width": 50,
+          "x": 4343,
+          "y": 949,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "72576573-ca70-466f-bb10-488358a9b0a3",
+          "width": 50,
+          "x": 4416,
+          "y": 947,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "db06d6dc-978b-416b-9161-5a1ad9353209",
+          "width": 50,
+          "x": 4488,
+          "y": 947,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "bb06ea13-b68e-4e3b-8097-e78ae5ead21b",
+          "width": 50,
+          "x": 4552,
+          "y": 949,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "4f319e27-6d9d-4976-b673-3e18d5b8d1ba",
+          "width": 50,
+          "x": 4619,
+          "y": 951,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "56e40ef3-e158-4fcd-9113-c8a2f9976987",
+          "width": 50,
+          "x": 4690,
+          "y": 948,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "f59e92ae-1d26-4d57-95f1-c518d17b3a89",
+          "width": 50,
+          "x": 4754,
+          "y": 949,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "00cc77a9-22a0-4f11-ac42-0c8c61d6bf8f",
+          "width": 50,
+          "x": 4814,
+          "y": 949,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "d30c55eb-4770-4e32-89b2-031870e32b8d",
+          "width": 50,
+          "x": 4872,
+          "y": 952,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "325db18c-3d62-4471-9710-674e8326424d",
+          "width": 50,
+          "x": 4943,
           "y": 950,
-          "zOrder": 11,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "d2e09c9a-03cf-4eb9-a67d-da8f4ce254d2",
+          "width": 50,
+          "x": 5005,
+          "y": 951,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "68d33e75-1654-44c2-8df2-1699cb8379df",
+          "width": 50,
+          "x": 5066,
+          "y": 951,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "6e0932a6-b457-4a51-9512-76913419653d",
+          "width": 50,
+          "x": 5117,
+          "y": 949,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "517749a2-5b1e-4047-9cde-f8044aa00272",
+          "width": 50,
+          "x": 5192,
+          "y": 949,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "ef4c998a-4433-4c5c-993f-8ec92f409ea7",
+          "width": 50,
+          "x": 5270,
+          "y": 947,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "d916f025-82a1-4226-aad3-b3a1bb518a49",
+          "width": 50,
+          "x": 5338,
+          "y": 946,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "c3f7c985-70b7-439e-8adf-50c5d01620d9",
+          "width": 50,
+          "x": 5408,
+          "y": 948,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "83708079-ab16-4a3f-951b-677eba01e107",
+          "width": 50,
+          "x": 5483,
+          "y": 945,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "8f6fd400-67f8-40f7-b467-ad5041143f5a",
+          "width": 50,
+          "x": 5567,
+          "y": 944,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "6edb5fa3-7768-47a8-9615-35a9fe08ab11",
+          "width": 50,
+          "x": 5634,
+          "y": 944,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "85b16fc6-e2c0-43e3-acd9-648effebf511",
+          "width": 50,
+          "x": 5707,
+          "y": 942,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "8d5afc5d-048c-4b0b-b217-ad1ef4a1daad",
+          "width": 50,
+          "x": 5779,
+          "y": 942,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "dc378da4-748a-4f8f-8b79-ad6f4f9ea802",
+          "width": 50,
+          "x": 5843,
+          "y": 944,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "3efcff35-7718-4d6e-9b41-923cfefa224c",
+          "width": 50,
+          "x": 5910,
+          "y": 946,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "ef992549-901b-413e-9337-ef87cb821d77",
+          "width": 50,
+          "x": 5981,
+          "y": 943,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "468cc133-93b8-4755-a288-8b4dbd24d4d4",
+          "width": 50,
+          "x": 6045,
+          "y": 944,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "9d0444db-2b73-4cbb-9009-dd15a6245f80",
+          "width": 50,
+          "x": 6105,
+          "y": 944,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "687502ef-c820-4fb0-99c4-27f8fffd2218",
+          "width": 50,
+          "x": 6163,
+          "y": 947,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "032003bd-7bf4-4428-8eb0-dc5198ad9896",
+          "width": 50,
+          "x": 6234,
+          "y": 945,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "60026c3b-505b-4a0b-9a7d-246d5d270e62",
+          "width": 50,
+          "x": 6296,
+          "y": 946,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "73d0482d-fbc4-4480-ac65-109a46f43eb4",
+          "width": 50,
+          "x": 6357,
+          "y": 946,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "74a255ca-3360-4cb2-b782-8ec499b3d816",
+          "width": 50,
+          "x": 6408,
+          "y": 944,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "5a1d7f15-5c2c-4797-8bd5-4cba34a54a6e",
+          "width": 50,
+          "x": 6483,
+          "y": 944,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "435cbcd0-8fae-4a84-b17a-f7f252f25de7",
+          "width": 50,
+          "x": 6561,
+          "y": 942,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "1c4f15db-4a68-438e-a7a1-432386358513",
+          "width": 50,
+          "x": 6629,
+          "y": 941,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "b5230edc-dc8d-40a8-b600-2f8f756ad29e",
+          "width": 50,
+          "x": 6699,
+          "y": 943,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 82.16783216783216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PineTree",
+          "persistentUuid": "69747fba-dbf9-4f8e-82fa-bdfa7dba79e6",
+          "width": 50,
+          "x": 6774,
+          "y": 940,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 120,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "LeftArrow",
+          "persistentUuid": "3108e3ef-9e63-4528-83d3-514a3a7f6d1c",
+          "width": 80,
+          "x": 169,
+          "y": 634,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 120,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "RightArrow",
+          "persistentUuid": "2586352d-36fb-4f4d-9695-b936955ea2e3",
+          "width": 80,
+          "x": 271,
+          "y": 634,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 120,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "JumpButton",
+          "persistentUuid": "53cd2e50-acde-455c-b6d0-51a2abd40e92",
+          "width": 80,
+          "x": 376,
+          "y": 637,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 120,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "AttackButton",
+          "persistentUuid": "28a218c8-b879-41b5-824f-4f88fb9da43f",
+          "width": 80,
+          "x": 482,
+          "y": 641,
+          "zOrder": 57,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11894,6 +12836,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -11906,9 +12850,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -16343,6 +17285,314 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "LeftArrow",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Left arrow round button.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Left arrow round button.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Left arrow round button.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "RightArrow",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Right arrow round button.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Right arrow round button.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Right arrow round button.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "JumpButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Top arrow round button.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Top arrow round button.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Top arrow round button.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "AttackButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Fire round button.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Fire round button.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Fire round button.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            }
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -16454,6 +17704,18 @@
           },
           {
             "objectName": "Hat2"
+          },
+          {
+            "objectName": "LeftArrow"
+          },
+          {
+            "objectName": "RightArrow"
+          },
+          {
+            "objectName": "JumpButton"
+          },
+          {
+            "objectName": "AttackButton"
           }
         ]
       },
@@ -16472,7 +17734,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Health",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -16499,7 +17760,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Death",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -16600,7 +17860,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Bar",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -16610,7 +17869,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Hotbar",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -16620,7 +17878,6 @@
                       "colorG": 176,
                       "colorR": 74,
                       "creationTime": 0,
-                      "folded": true,
                       "name": "WeaponSlot",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
@@ -16630,7 +17887,6 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
-                          "folded": true,
                           "name": "StartingAxe",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
@@ -16732,7 +17988,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Kicking",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -16763,6 +18018,15 @@
                                 "",
                                 "1",
                                 "\"R2\"",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                              },
+                              "parameters": [
+                                "AttackButton",
                                 ""
                               ]
                             }
@@ -16913,34 +18177,6 @@
                                 "Weapon",
                                 "=",
                                 "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Or"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "KeyFromTextPressed"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "\"PageUp\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Gamepads::C_Button_pressed"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "1",
-                                    "\"L1\"",
-                                    ""
-                                  ]
-                                }
                               ]
                             }
                           ],
@@ -17138,6 +18374,15 @@
                                     "\"R2\"",
                                     ""
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                                  },
+                                  "parameters": [
+                                    "AttackButton",
+                                    ""
+                                  ]
                                 }
                               ]
                             },
@@ -17228,6 +18473,16 @@
                                     "",
                                     "1",
                                     "\"R2\"",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "PanelSpriteButton::PanelSpriteButton::IsActivated"
+                                  },
+                                  "parameters": [
+                                    "AttackButton",
                                     ""
                                   ]
                                 }
@@ -17368,6 +18623,15 @@
                                     "\"R2\"",
                                     ""
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                                  },
+                                  "parameters": [
+                                    "AttackButton",
+                                    ""
+                                  ]
                                 }
                               ]
                             },
@@ -17506,6 +18770,16 @@
                                     "\"R2\"",
                                     ""
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "PanelSpriteButton::PanelSpriteButton::IsActivated"
+                                  },
+                                  "parameters": [
+                                    "AttackButton",
+                                    ""
+                                  ]
                                 }
                               ]
                             },
@@ -17628,7 +18902,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Movement",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -17638,11 +18911,28 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "KeyFromTextPressed"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "",
-                        "\"Left\""
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Left\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                          },
+                          "parameters": [
+                            "LeftArrow",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -17663,11 +18953,28 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "KeyFromTextPressed"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "",
-                        "\"Right\""
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Right\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                          },
+                          "parameters": [
+                            "RightArrow",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -17688,15 +18995,6 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "KeyFromTextPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Up\""
-                      ]
-                    },
-                    {
-                      "type": {
                         "inverted": true,
                         "value": "CollisionNP"
                       },
@@ -17706,6 +19004,32 @@
                         "",
                         "",
                         "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Up\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                          },
+                          "parameters": [
+                            "JumpButton",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -17748,6 +19072,15 @@
                             "1",
                             "\"Left\"",
                             "\"Up\"",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                          },
+                          "parameters": [
+                            "JumpButton",
                             ""
                           ]
                         }
@@ -17838,26 +19171,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyFromTextPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Down\""
-                      ]
-                    }
-                  ],
-                  "actions": []
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
                 },
                 {
                   "colorB": 228,
@@ -24420,6 +25733,12 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
